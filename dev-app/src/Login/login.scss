@@ -1,0 +1,190 @@
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  // width: 280px;
+  max-width: 80%;
+  // min-width: 500px;
+  // min-height: 400px;
+ padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 16px #222;
+  background-color: #fefefe;
+  margin: auto;
+}
+
+.form-wrapper > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 17px !important;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.submit button {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: #0097e0;
+  color: white !important;
+  outline: none;
+}
+
+.submit button:hover {
+  background-color: white;
+  color: #0097e0 !important;
+  border: solid 1px #0097e0;
+}
+
+input.error {
+  border: 1px solid #eadae4;
+}
+
+.error {
+  color: #db2269;
+  font-size: 15px;
+  display: relative;
+}
+
+.fullName {
+  margin-right: 1%;
+}
+
+.fullName,
+.email,
+.password,
+.newuser,
+.submit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px !important;
+  width: 100%;
+}
+
+.fullName {
+  width: 100%;
+}
+
+.email,
+.password {
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Logininput {
+  width: 100% !important;
+}
+.newuser a {
+  text-align: center;
+  cursor: pointer;
+  color: #0097e0 !important;
+}
+.loginlogo {
+  max-width: 270px;
+}
+.loginheader {
+  width: 50%;
+  height: auto;
+  background-color: #43b554;
+}
+.loginNavbar {
+  display: flex;
+  flex-direction: column !important;
+  margin-top: 120px;
+  // justify-content: space-evenly;
+}
+.vesriontext {
+  left: 332px;
+  top: 80px;
+  position: relative;
+}
+.vesriontext p {
+  text-align: right;
+  color: white;
+}
+.headertext .timesheetText {
+  background-color: black;
+  letter-spacing: px;
+}
+.headertext .tracker {
+  margin-left: 108px;
+  background-color: black;
+  letter-spacing: 3px;
+  margin-top: -30px;
+}
+.headertext p {
+  color: white !important;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.loginpageAlign {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1500px) {
+  .wrapper {
+    height: 100vh !important;
+  }
+  .loginpageAlign {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .vesriontext {
+    left: 310px;
+    top: 10px;
+    position: relative;
+  }
+  .vesriontext p {
+    text-align: right;
+    color: white;
+  }
+}
